@@ -35,7 +35,7 @@ Send GET request:
    
 Output:
 ```javascript 
-{"command":"find . -name \"*kt\" | xargs cat | wc -l", "description":"count lines in .kt files (recursively)"}
+{"command":"find . -name '*kt' | xargs cat | wc -l", "description":"count lines in .kt files (recursively)"}
 ```
 
 
